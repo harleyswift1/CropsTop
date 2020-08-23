@@ -1,0 +1,26 @@
+top-players-inventory:
+ title: '&c{crop} Top'
+ item-name: '&c&l{player} &7&o#{place}'
+ item-lore:
+  - '&7Amount Broken:&7 {broken}'
+  - '&7Place :&7 #{place}'
+update-time: 5
+use-gui: false
+main-gui:
+ title: '&cCrops Top'
+ name-sugar_cane_block: '&cSugarcane Top &7&o(#1-#9)'
+ name-cactus: '&cCactus Top &7&o(#1-#9)'
+ name-wheat: '&cWheat Top &7&o(#1-#9)'
+ name-pumpkin: '&cPumpkin Top &7&o(#1-#9)'
+ name-melon: '&cMelon Top &7&o(#1-#9)'
+ name-carrot: '&cCarrot Top &7&o(#1-#9)'
+ name-potato: '&cPotato Top &7&o(#1-#9)'
+ item-name: '&c&n{crop} Top'
+ item-lore:
+ - '&fClick to view the top players'
+ - '&ffor breaking {crop}'
+ - ''
+ - '&cYour Current: &f&n{broken}'
+no-perms: '&cYou do not have permission for this!'
+updated: '&cCropsTop list has been force updated!'
+reloaded: '&cReloaded config.yml and data.yml!'
